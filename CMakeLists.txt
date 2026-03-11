@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1...3.14)
+cmake_minimum_required(VERSION 3.6...4.3)
 
 project(ccc LANGUAGES CXX)
 
@@ -89,6 +89,7 @@ enable_testing()
 ############
 
 add_subdirectory(preface)
+add_subdirectory(aa_codezclub)
 add_subdirectory(chapter_1)
 add_subdirectory(chapter_2)
 add_subdirectory(chapter_3)
@@ -110,3 +111,4 @@ add_subdirectory(chapter_18)
 add_subdirectory(chapter_19)
 add_subdirectory(chapter_20)
 add_subdirectory(chapter_21)
+add_executable(Operation chapter_2/Execercises/Operation.cpp chapter_2/Execercises/Operation.h)
