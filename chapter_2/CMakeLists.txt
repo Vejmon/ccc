@@ -2,7 +2,11 @@ cmake_minimum_required(VERSION 3.1...3.14)
 
 project(chapter_2 LANGUAGES CXX)
 
-add_executable(listing_2_1 listing_2_1.cpp)
+add_executable(listing_2_1 listing_2_1.cpp
+        Execercises/Operation1.cpp
+        Operation.h
+        Execercises/Calculator.cpp
+        Execercises/Calculator.h)
 add_executable(listing_2_2 listing_2_2.cpp)
 add_executable(listing_2_3 listing_2_3.cpp)
 add_executable(listing_2_4 listing_2_4.cpp)
